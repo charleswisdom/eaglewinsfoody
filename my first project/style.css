@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&family=Satisfy&family=Yantramanav:wght@300;900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+section {
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+/* nav bar*/
+
+nav {
+  background:  linear-gradient(rgba(18, 133, 114, 0.3), rgba(18, 133, 114, 0.3)), url(img/orange\ \(2\).jpg);
+  background-position: center;
+  background-size: cover;
+   position: fixed;
+   width: 100%;
+}
+
+.nav-item,
+.nav-link {
+  color: #fff !important; 
+  
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+nav ul {
+    display: flex;
+    top: 0;
+    margin-left: 10px;
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li { 
+    font-style: none;
+   margin: 20px;
+    font-weight: 400;
+    
+}
+
+
+
+nav ul li a {
+  font-size: 1.3rem;
+  font-weight: 900;
+   color: beige;
+    text-decoration: none;
+}
+
+
+.navbar-brand {
+  font-size: 40px;
+  color: white;
+  background-color: #2a0202;
+  
+}
+
+/*nav li a:after {
+    content: '';
+    display: block;
+    top: 0;
+    width: 100px;
+    height: 2px;
+    background-color: aqua;
+    border-radius: 4px;
+    transition: 1s ease;
+    transform: scaleX(0);
+   
+   } 
+   
+   nav a:hover:after {
+       transform: scaleX(1.2);
+       transform-origin: center;
+       width: 70px;
+      background-color: rgba(28, 183, 214, 0.63);
+     
+     }
+      
+
+     /* background */
+
+     nav .btn-yellow  {
+       padding: 7px 10px;
+        background-color: red;
+        border-radius: 45px;
+    
+     }
+
+     nav a {
+      text-decoration: none;
+      color: white;
+     }
+
+     nav .btn-yellow:hover {
+      background-color: yellow;
+      color: white;
+    
+
+     }
+
+     .navbar-toggler-icon {
+    background-color: lightblue;
+    font-size: 1.4rem;
+    
+     }
+     
+     /* background */
+        #background { 
+        background-image: linear-gradient(rgba(18, 133, 114, 0.3), rgba(18, 133, 114, 0.3)), url(img/pexels-robin-stickel-70497.jpg);
+        height: 100%;
+        display: flex;
+        background-position: center; 
+        background-size: cover;
+        background-repeat: repeat;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        text-align: left;
+        
+    
+     }
+
+     #background h1 {
+
+        margin: 20px;
+        margin-left: 55px;
+        font-size: 5rem;
+        font-weight: bold;
+        align-items: center;
+        color: white;
+        
+     }
+
+     span {
+        color: red;
+    
+     }
+   
+        
+     #background .btn a {
+
+        margin-top: 20px;
+        
+
+    }
+
+   #background a {
+    margin-top: 2%;
+    margin-left: -39%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 35px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 45px;
+    
+    
+   }
+
+   #background .btn-yellow {
+ color: yellow;
+
+   }
+   #background .btn-yellow:hover {
+    background-color: rgb(0, 47, 255);
+    color: white;
+
+   }
+   
+
+ #background h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  margin-top: -10%;
+  color: white;
+  cursor: pointer;
+  
+ }
+
+ #background h2:hover {
+  color: rgb(0, 255, 170);
+ }
+
+ #background p {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  line-break: normal;
+  margin-top: -5%;
+ }
+
+ 
+
+ /* About */
+ #about {
+ display: grid;
+ grid-template-columns: repeat(2, 2fr);
+ grid-gap: 1.5rem;
+ align-items: center;
+ margin-right: 39px;
+ }
+
+  #about .img img {
+ max-width: 90%;
+ width: 100%;
+ height: auto;
+ margin-left: 50px;
+ border-radius: 100px;
+
+ }
+
+   #about a {
+    margin-top: 2%;
+    margin-left: 32%;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 35px;
+    font-weight: 500;
+    background-color: rgba(207, 86, 21, 0.8) !important;
+    border-radius: 45px;
+    }
+ #about .btn-yellow {
+ color: rgb(160, 160, 149);
+
+   }
+   #about .btn-yellow:hover {
+    background-color: rgb(255, 0, 123) !important;
+    color: white;
+
+   }
+   
+
+#about h2 {
+   font-size:  25px;
+   font-weight: 800;
+   text-align: center;
+
+ }
+
+ #about p {
+   font-size: large;
+   text-align: center;
+   margin-left: 4px;
+  
+ }
+
+ /* menu */
+
+ .heading  {
+  text-align: center;
+ }
+
+
+
+
+.heading h2  {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: rgb(14, 124, 96);
+  margin-top: -0.3%;
+
+}
+
+.box-image img {
+  border-radius: 80px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  align-items: center;
+}
+ .box {
+  position: relative;
+  margin: 15px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background: rgb(11, 9, 22);
+  border-radius: 0.5rem;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 6px 6px 7px black;
+ }
+
+ .box:hover {
+  background: white;
+  color: #2a0202;
+ }
+ .box h2 {
+  font-size: 18px;
+  color:  rgb(204, 182, 182);
+  text-align: center;
+ }
+
+ 
+ .box h3 {
+  font-size: 1.1rem;
+  color: rgb(43, 82, 82);
+ }
+
+ .box {
+  color: rgb(203, 70, 70);
+  font-size: 15px;
+ }
+
+ .box .bx {
+  background: rgb(255, 0, 242);
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+ }
+
+.box .bx:hover {
+background-color: white;
+color: blueviolet;
+}
+ .box-image {
+  width: 180px;
+  height: 150px;
+ 
+ }
+
+ .box-image img {
+  width: 170px;
+  height: 150px;
+  
+ }
+
+ /* services */
+
+ .x-servce {
+  text-align: center;
+  
+ }
+
+ .x-servce h4 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: rgb(20, 17, 16);
+ }
+
+ .x-servce h3 {
+  font-size: 18px;
+  color: rgb(203, 70, 70);
+  text-align: center;
+ }
+
+.service-contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  align-items: center;
+  background-image: linear-gradient(rgba(199, 32, 44, 0.7), rgba(199, 42, 32, 0.7)), url(img/pexels-william-choquette-2641886.jpg);
+ background-position: center;
+ background-size: cover;
+ background-repeat: repeat;
+
+}
+
+.x-box {
+  position: relative;
+  margin: 15px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 20px;
+  cursor: pointer;
+
+}
+
+.x-box h2 {
+  margin: 4px 0 10px;
+  font-size: 1.9rem;
+  color: white;
+
+}
+
+.x-box p {
+
+  color: white;
+}
+
+/* contact us */
+
+.cta {
+  margin:  100px auto;
+  width: 70%;
+  background-color: rgb(32, 218, 215);
+  padding: 60px 0 60px 20px;
+  box-shadow: 0 6px 6px 7px rgb(58, 53, 53);
+
+}
+
+.cta h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-items: center;
+  
+}
+
+.cta a {
+  
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 10px 35px;
+  font-weight: 500;
+  background-color: rgb(101, 101, 94);
+  color: aquamarine;
+  border-radius: 35px;
+  text-align:center;
+  margin:  -1.5rem 0 0 28rem;
+}
+
+.cta .btn {
+  align-items: center;
+  justify-items: center;
+
+}
+
+/*hover*/
+
+ .main { 
+  background-color: #100b0b;
+  margin: 8% -10% -24% -9%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.container {
+  padding: 10px 0s;
+  
+}
+
+.col {
+  padding: 7px;
+  margin: 13px;
+  width: 10px;
+
+}
+
+.col h4 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #cd5c00;
+  margin-bottom: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.col h4::after {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  font-size: 2.2rem;
+  bottom: -8px;
+  transition: 4s;
+  
+}
+
+.col h4:hover::after {
+  
+  transform: scaleX(0.1);
+  transform-origin: center;
+  width: 8px;
+ background-color: rgba(28, 109, 214, 0.63);
+
+}
+
+.col ul li:not(:last-child) {
+  margin-bottom: 15px;
+
+}
+
+.col ul li {
+  list-style: none;
+}
+ 
+.col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  display: block;
+  transition: .5s;
+}
+ 
+.col ul li a:hover {
+  color: coral;
+  transform: translateX(-12px);
+}
+
+.col .Social {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.col .Social a {
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(220, 33, 20);
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.3rem;
+  transition: .4s;
+}
+
+.col .Social a:hover {
+  background: white;
+  color: rgb(206, 29, 29);
+  transform: scale(1.2);
+}
+
+/* responsive */
+
+@media (max-width: 1560px) {
+  #background {
+    padding: 15px 40px;
+  }
+  :root {
+
+  }
+}
+
+@media (max-width: 1140px) {
+  section {
+    padding: 50px 8%;
+  }
+}
+
+@media (max-width: 720px) {
+   nav {
+    padding: 40px;
+   }
+
+   #background a  {
+    padding: 30px;
+    margin: 10px;
+
+   }
+
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+ /* varities *
+
+ #varities {
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center; 
+  justify-self: center;
+  position: relative;
+  margin-bottom: 30px;
+  background-color: white;
+ }
+
+ #varities .food-img p {
+   font-size: 20px;
+   font-weight: 700;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #varities .food-img p span {
+   margin-bottom: 0%;
+   padding: 3px;
+   color: red;
+   
+ }
+
+ #varities .food-img   {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+   grid-gap: 10px;
+   margin-top: -10px;
+   
+ }
+
+ #varities h2 {
+  margin: 3%;
+   font-size: 30px;
+   font-weight: 900;
+   text-align: center;
+   justify-content: center;
+ }
+
+
+
+ 
+ .card-title  h5 {
+   text-align: center;
+
+ }
+  .card-title p {
+   text-align: center;
+  }
+
+
+
+ .img-top {
+   width: 100%;
+   height: 40vh;
+   object-fit: cover;
+ }
+ 
+ .container {
+   background-image: linear-gradient(rgba());
+ }
+
+ .owl-prev {
+   left: -30px;
+ }
+
+ .owl-next {
+   right: -30px;
+ }
+
+ .owl-prev , .owl-next {
+   position: absolute;
+   top: 100px;
+
+ }
+
+ .owl-prev span , .owl-next span {
+   font-size: 70px;
+   color: aqua;
+   border: none;
+   background: none;
+   
+ }
